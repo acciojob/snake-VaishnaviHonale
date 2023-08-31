@@ -1,5 +1,4 @@
 //your code here
-//your code here
  //your code here
 // GAME_PIXEL_COUNT is the pixels on horizontal or vertical axis of the game board (SQUARE).
 const GAME_PIXEL_COUNT = 40;
@@ -202,4 +201,4 @@ const downButton = document.getElementById("downButton");
 leftButton.onclick = () => changeDirection(LEFT_DIR);
 rightButton.onclick = () => changeDirection(RIGHT_DIR);
 upButton.onclick = () => changeDirection(UP_DIR);
-downButton.onclick = () => changeDirection(DOWN_DTR);
+downButton.onclick = () => changeDirection(DOWN_DIR);
